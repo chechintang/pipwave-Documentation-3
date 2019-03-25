@@ -1,0 +1,7 @@
+## Verification Modes
+
+* livefeed
+* upload
+
+
+
