@@ -40,20 +40,17 @@ Used to start a verification session. The API generates a unique token which the
 
 ```
 {
-    [
-        ‘type’ => ‘credit-card’,
-        ‘match_text’ => {
-            ‘credit-card-first6’ => ‘552111’,
-            ‘credit-card-last4’ => ‘5566’,
+    "credit-card": {
+        "match_text": {
+            "credit-card-first6": "552111",
+            "Credit-card-last4": "5566",
         },
-
-    ],
-    [
-        ‘type’ => ‘identification’,
-        ‘match_text’ => {
-            ‘name’ => ‘Ali Baba’,
+    },
+    "identification": {
+        "match_text": {
+            "name": "Ali Baba",
         }
-    ]
+    }
 }
 ```
 
